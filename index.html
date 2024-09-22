@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Online Learning Platform</h1>
+        <p>Explore our available courses</p>
+    </header>
+    <div class="course-grid" id="courseContent">
+        <div onclick="showModules('Java')">Java</div>
+        <div onclick="showModules('Python')">Python</div>
+        <div onclick="showModules('Machine Learning')">Machine Learning</div>
+        <div onclick="showModules('PHP')">PHP</div>
+        <div onclick="showModules('PL/SQL')">PL/SQL</div>
+        <div onclick="showModules('HTML')">HTML</div>
+        <div onclick="showModules('R Language')">R Language</div>
+        <div onclick="showModules('C++')">C++</div>
+        <div onclick="showModules('Data Structures')">Data Structures</div>
+    </div>
+    <div id="moduleContent"></div>
+    <script src="script.js"></script>
+</body>
+</html>
